@@ -1,17 +1,217 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./styles/styles.css">
-    </head>
-    <body>
-        <p>hello</p>
-        
-        <script src="./app.js" async></script>
-    </body>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Bookmark</title>
+    <link rel="icon" href="../challenge-details/images/favicon-32x32.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <img
+        class="nav-logo"
+        src="..//challenge-details/images/logo-bookmark.svg"
+        alt="logo-bookmark"
+      />
+
+      <img
+        class="nav-hamburger"
+        src="../challenge-details/images/icon-hamburger.svg"
+        alt="menu"
+      />
+    </nav>
+    <main>
+      <section class="hero">
+        <div class="hero-container">
+          <img
+            class="hero-illustration"
+            src="../challenge-details/images/illustration-hero.svg"
+            alt=""
+          />
+          <div class="hero-background"></div>
+        </div>
+
+        <h1 class="hero-title">A Simple Bookmark Manager</h1>
+        <p class="description">
+          A clean and simple interface to organize your favourite websites. Open
+          a new browser tab and see your sites load instantly. Try it for free.
+        </p>
+        <div class="btn-container">
+          <button class="btn btn-chrome">Get it on Chrome</button>
+          <button class="btn btn-firefox">Get it on Firefox</button>
+        </div>
+      </section>
+      <section class="features">
+        <h2 class="mid-title">Features</h2>
+        <p class="description">
+          Our aim is to make it quick and easy for you to access your favourite
+          websites. Your bookmarks sync between your devices so you can access
+          them on the go.
+        </p>
+        <div class="btn-container features-btn-container">
+          <div class="border">
+            <button class="features-btn features-btn-1">
+              Simple Bookmarking
+            </button>
+          </div>
+          <div class="border">
+            <button class="features-btn features-btn-2">
+              Speedy Searching
+            </button>
+          </div>
+          <div class="border">
+            <button class="features-btn features-btn-3">Easy Sharing</button>
+          </div>
+        </div>
+        <div class="features-container">
+          <div class="feat-tab tab1">
+            <img
+              class="feat-img-1"
+              src="../challenge-details/images/illustration-features-tab-1.svg"
+              alt=""
+            />
+            <h3 class="mid-title">Bookmark in one click</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ut
+              pariatur eius cumque doloremque est obcaecati labore dolor omnis
+              atque.
+            </p>
+          </div>
+          <div class="feat-tab tab2">
+            <img
+              class="feat-img-2"
+              src="../challenge-details/images/illustration-features-tab-2.svg"
+              alt=""
+            />
+            <h3 class="mid-title">Tab2 title</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ut
+              pariatur eius cumque doloremque est obcaecati labore dolor omnis
+              atque.
+            </p>
+          </div>
+          <div class="feat-tab tab3">
+            <img
+              class="feat-img-3"
+              src="../challenge-details/images/illustration-features-tab-3.svg"
+              alt=""
+            />
+            <h3 class="mid-title">Tab3 title</h3>
+            <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad ut
+              pariatur eius cumque doloremque est obcaecati labore dolor omnis
+              atque.
+            </p>
+          </div>
+
+          <div class="feat-background"></div>
+        </div>
+      </section>
+      <section class="download">
+        <h2 class="mid-title">Download the extention</h2>
+        <p class="description">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+          reprehenderit eligendi labore tempora laborum rem ipsam unde
+          distinctio nesciunt quasi.
+        </p>
+        <div class="download-cards">
+          <div class="card card-chrome">
+            <img
+              class="browser-logo"
+              src="../challenge-details/images/logo-chrome.svg"
+              alt=""
+            />
+            <h3 class="mid-title">Add to Chrome</h3>
+            <p class="description">Minimum version 62</p>
+            <img src="../challenge-details/images/bg-dots.svg" alt="" />
+            <button class="btn">Add & Install Extention</button>
+          </div>
+          <div class="card card-firefox">
+            <img
+              class="browser-logo"
+              src="../challenge-details/images/logo-firefox.svg"
+              alt=""
+            />
+            <h3 class="mid-title">Add to Firefox</h3>
+            <p class="description">Minimum version 55</p>
+            <img src="../challenge-details/images/bg-dots.svg" alt="" />
+            <button class="btn">Add & Install Extention</button>
+          </div>
+          <div class="card card-opera">
+            <img
+              class="browser-logo"
+              src="../challenge-details/images/logo-opera.svg"
+              alt=""
+            />
+            <h3 class="mid-title">Add to Opera</h3>
+            <p class="description">Minimum version 46</p>
+            <img src="../challenge-details/images/bg-dots.svg" alt="" />
+            <button class="btn">Add & Install Extention</button>
+          </div>
+        </div>
+      </section>
+      <section class="faq">
+        <h2 class="mid-title">Frequently Asked Questions</h2>
+        <p class="description">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. At, ipsa,
+          cumque illo libero tenetur adipisci modi sit dolore aspernatur amet
+          officia. Aperiam itaque totam ea!
+        </p>
+        <div class="faq-container">
+          <div class="faq-item">
+            <h4>What is bookmark?</h4>
+            <img src="../challenge-details/images/icon-arrow.svg" alt="" />
+          </div>
+          <div class="faq-item">
+            <h4>How can I request a new browser?</h4>
+            <img src="../challenge-details/images/icon-arrow.svg" alt="" />
+          </div>
+          <div class="faq-item">
+            <h4>Is there a mobile app?</h4>
+            <img src="../challenge-details/images/icon-arrow.svg" alt="" />
+          </div>
+          <div class="faq-item">
+            <h4>What about other Chromium browsers?</h4>
+            <img src="../challenge-details/images/icon-arrow.svg" alt="" />
+          </div>
+        </div>
+        <button class="btn">More Info</button>
+      </section>
+      <section class="subscribe">
+        <p class="info">35,000+ ALREADY JOINED</p>
+        <h2 class="mid-title">Stay up-to-date with what we're doing</h2>
+        <input
+          type="text"
+          class="email"
+          placeholder="Enter your emaill address"
+        />
+        <button class="btn contact-btn">Contact Us</button>
+      </section>
+      <footer>
+        <p>Features</p>
+        <p>Pricing</p>
+        <p>Contact</p>
+
+        <ul class="social">
+          <li>
+            <img src="../challenge-details/images/icon-facebook.svg" alt="" />
+          </li>
+          <li>
+            <img src="../challenge-details/images/icon-twitter.svg" alt="" />
+          </li>
+        </ul>
+      </footer>
+    </main>
+
+    <script src="./app.js" async></script>
+  </body>
 </html>
