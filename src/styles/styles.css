@@ -54,12 +54,18 @@ nav {
   border: none;
   padding: 10px 15px;
   border-radius: 5px;
+  border: 1.5px solid #5368df;
   color: white;
   font-size: 0.75rem;
   -webkit-box-shadow: 2px 2px 0.5rem #9194a1;
           box-shadow: 2px 2px 0.5rem #9194a1;
   font-weight: bold;
   cursor: pointer;
+}
+
+.btn:hover {
+  background: white;
+  color: #5368df;
 }
 
 .btn-container {
@@ -111,8 +117,13 @@ nav {
 
 .btn-firefox {
   background: #9194a1;
+  border: 1.5px solid #9194a1;
   margin-left: 5%;
   color: #292929;
+}
+
+.btn-firefox:hover {
+  color: #9194a1;
 }
 
 @media (min-width: 700px) {
@@ -186,6 +197,7 @@ nav {
 
 .features-btn:hover, .features-btn:focus {
   border-bottom: 3px solid #fa5757;
+  color: #fa5757;
 }
 
 .border {
@@ -319,6 +331,12 @@ nav {
   margin: 25px;
 }
 
+.card .btn:hover {
+  background: transparent;
+  color: #5368df;
+  border: 1.5px solid #5368df;
+}
+
 @media (min-width: 700px) {
   .download {
     width: 80%;
@@ -422,6 +440,7 @@ nav {
   border: none;
   margin: 10px auto;
   padding-left: 20px;
+  outline: #fa5757;
 }
 
 .email::-webkit-input-placeholder {
@@ -440,6 +459,10 @@ nav {
   color: #9194a1;
 }
 
+.email:focus {
+  border: 2px solid #fa5757;
+}
+
 .contact-btn {
   background: #fa5757;
   border-radius: 10px;
@@ -448,6 +471,13 @@ nav {
   max-width: 400px;
   width: 100%;
   margin: auto;
+  outline: none;
+}
+
+.contact-btn:hover {
+  background: white;
+  color: #fa5757;
+  border: 1.5px solid #fa5757;
 }
 
 footer {

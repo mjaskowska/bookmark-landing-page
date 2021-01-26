@@ -47,11 +47,16 @@ nav {
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
+    border: 1.5px solid $primary-blue;
     color: $white;
     font-size: 0.75rem;
     box-shadow: 2px 2px 0.5rem $grayish-blue;
     font-weight: bold;
     cursor: pointer;
+    &:hover {
+        background: white;
+        color: $primary-blue;
+    }
 }
 .btn-container{
     display: flex;
@@ -98,8 +103,12 @@ nav {
 
 .btn-firefox{
     background: $grayish-blue;
+    border: 1.5px solid $grayish-blue;
     margin-left: 5%;
     color: rgb(41, 41, 41);
+    &:hover {
+        color: $grayish-blue;
+    }
 }
 
 @media (min-width: 700px) {
@@ -164,6 +173,7 @@ nav {
     outline: none;
     &:hover, &:focus {
         border-bottom: 3px solid $primary-red;
+        color: $primary-red;
     }
 }
 .border {
@@ -272,6 +282,11 @@ nav {
     }
     .btn {
         margin: 25px;
+        &:hover {
+            background: transparent;
+            color: $primary-blue;
+            border: 1.5px solid $primary-blue;
+        }
     }
 }
 @media (min-width: 700px) {
@@ -362,9 +377,13 @@ nav {
     border: none;
     margin: 10px auto;
     padding-left: 20px;
+    outline: $primary-red;
 
     &::placeholder {
         color: $grayish-blue;
+    }
+    &:focus {
+        border: 2px solid $primary-red;
     }
 
 }
@@ -375,6 +394,12 @@ nav {
     max-width: 400px;
     width: 100%;
     margin: auto;
+    outline: none;
+    &:hover {
+        background: $white;
+        color: $primary-red;
+        border: 1.5px solid $primary-red;
+    }
 }
 
 footer {
